@@ -1,4 +1,4 @@
 console.log('Loaded!');
-var element = document.getElementByid("maintext");
+var element = document.getElementById("maintext");
 element.innerHTML = "Promod";
 
