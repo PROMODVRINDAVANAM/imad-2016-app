@@ -2,7 +2,7 @@ console.log('Loaded!');
 var element = document.getElementById("maintext");
 element.innerHTML = "Promod";
 // moving image
-var element = document.getElementById("madi");
+var img = document.getElementById("madi");
 var marginleft=0;
 
 function moveRight(){
