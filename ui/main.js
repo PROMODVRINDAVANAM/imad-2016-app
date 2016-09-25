@@ -3,7 +3,7 @@ var element = document.getElementById("maintext");
 element.innerHTML = "Promod";
 // moving image
 var img = document.getElementById("madi");
-var marginleft=0;
+var marginLeft=0;
 
 function moveRight(){
     marginLeft=marginLeft+5;
