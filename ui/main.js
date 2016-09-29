@@ -15,8 +15,7 @@ button.onclick = function(){
         
         }
     }
-    
-    
+
    };
    //make the request
    
