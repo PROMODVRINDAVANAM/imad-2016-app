@@ -20,6 +20,6 @@ button.onclick = function(){
    };
    //make the request
    
-   request.open('GET', "http://promodvrindavanam.imad.hasura.io/counter",true);
+   request.open('GET', "http://promodvrindavanam.imad.hasura-app.io/counter",true);
    request.send(null);
 };
