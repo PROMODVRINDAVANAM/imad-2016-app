@@ -33,7 +33,7 @@ var list = "";
         list=="<li>"+name(i)+"</li>";
         
     }
-    var ul=document.getElementByid("namelist");
+    var ul=document.getElementById("namelist");
     
     ul.interHTML=list;
     
