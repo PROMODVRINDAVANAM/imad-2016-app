@@ -3,11 +3,28 @@ var morgan = require('morgan');
 var path = require('path');
 
 var app = express();
+var pool= require('pg').Pool;
+
+var config = {
+  host: 'http://db.imad.hasura-app.io',
+  user: 'promodvrindavanam',
+  port: '5432',
+  password: process.env.DB_PASSWORD,
+  database: 'promodvrindavanam',
+};
+
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+
+app.get ('test-db',function (req,res){
+    
+    
+});
+
+
 var counter=0;
 app.get('/counter', function(req,res){
     counter=counter+1;
